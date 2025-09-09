@@ -1,0 +1,114 @@
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #222222;
+  background: #f9f9f9;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.principal{
+    flex: 1;
+}
+
+.encabezado {
+  border-bottom: 1px solid #222222;
+  padding: 10px;
+}
+
+.encabezado-interno {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.marca{
+    text-decoration: none;
+}
+.texto-marca {
+  font-size: 1.7rem;
+  color: #222222;
+  font-weight: bold;
+}
+
+.lista-menu {
+  display: flex;
+  gap: 15px;
+  font-weight: bold;
+}
+.lista-menu a {
+  color: #222222;
+  text-decoration: none;
+}
+.lista-menu a:hover {
+  text-decoration: underline;
+  color: #ac0808;
+}
+
+.portada {
+  color: #222222;
+  text-align: center;
+  padding: 60px 20px;
+  border: 1px solid #222222;
+  margin: 20px;
+  font-size: 3rem;
+  border-radius: 25px;
+}
+
+.productos{
+    margin: 25px;
+}
+.lista-productos {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.producto {
+  background: white;
+  border: 1px solid #dddddd;
+  padding: 10px;
+  text-align: center;
+  flex: 1;
+}
+
+.producto img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.precio {
+  font-weight: bold;
+  color: #5c5c5c;
+  margin: 5px 0;
+}
+
+.boton {
+  background: #333333;
+  color: #e2e2e2;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background: #555555;
+}
+
+.pie {
+  background: #f9f9f9;
+  color: #222222;
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #222222;
+  font-weight: bold;
+  margin-top: auto;
+}
