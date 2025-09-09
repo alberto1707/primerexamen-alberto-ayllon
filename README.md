@@ -18,3 +18,12 @@ Atributos "aria": aria-expanded, aria-controls. Etiquetas descriptivas para la n
 
 Textos alternativos descriptivos: en las imagenes.
 
+## SEO
+
+Titulo unico y descriptivo
+
+Meta de descripción
+
+Etiquetas Open Graph
+
+Optimizacion de imagenes
